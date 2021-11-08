@@ -16,7 +16,7 @@ function adicionarFilme(titulo, duracao, atores, anoLancamento, emCartaz) {
   console.log('Filme adicionado com sucesso, catálogo agora tem ' + novoTamanhoDoCatalogo + ' filme(s)')
 }
 
-/*function buscarFilme(codigo) {
+function buscarFilme(codigo) {
   const filmeBuscado = catalogo[codigo]
   if(!filmeBuscado) {
     console.log('Filme não encontrado')
@@ -39,4 +39,3 @@ function alterarStatusEmCartaz(codigo) {
   }
   console.log('Status em cartaz alterado, novo status: ' + filmeAlterar.emCartaz)
 }
-*/
